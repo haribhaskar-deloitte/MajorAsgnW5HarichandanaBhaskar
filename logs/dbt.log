@@ -1,0 +1,46 @@
+
+
+============================== 2022-06-01 09:47:14.222757 | 5132a456-5021-4ee2-ae43-ae17ffeaab21 ==============================
+09:47:14.222757 [info ] [MainThread]: Running with dbt=1.1.0
+09:47:14.223838 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\haribhaskar\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+09:47:14.224761 [debug] [MainThread]: Tracking: tracking
+09:47:14.224761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002266BE84908>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002266BE87508>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002266BE876C8>]}
+09:47:14.225762 [info ] [MainThread]: To view your profiles.yml file, run:
+
+start C:\Users\haribhaskar\.dbt
+09:47:14.226761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002266BE99C48>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002266BE99E08>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002266BE99F08>]}
+
+
+============================== 2022-06-01 09:51:30.123566 | ab7af746-d07b-4214-b750-1f0d9ffdc08c ==============================
+09:51:30.123566 [info ] [MainThread]: Running with dbt=1.1.0
+09:51:30.124628 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\haribhaskar\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'MAJORASGNW5', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+09:51:30.124628 [debug] [MainThread]: Tracking: tracking
+09:51:30.126434 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7ABC12108>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7ABC12B08>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7ABC12BC8>]}
+09:51:30.126434 [debug] [MainThread]: Starter project path: c:\users\haribhaskar\desktop\majorasgn1w5\majorasgnw5harichandanabhaskar\dbt-env\lib\site-packages\dbt\include\starter_project
+09:53:12.920016 [info ] [MainThread]: Profile MAJORASGNW5 written to C:\Users\haribhaskar\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+09:53:12.921043 [info ] [MainThread]: 
+Your new dbt project "MAJORASGNW5" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+09:53:12.921043 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7ABC17388>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7ABC17E48>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7AD95C788>]}
+
+
+============================== 2022-06-02 08:03:02.045454 | 092944f6-59bb-42a6-b76f-ed377284b3c2 ==============================
+08:03:02.045454 [info ] [MainThread]: Running with dbt=1.1.0
+08:03:02.083377 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\haribhaskar\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+08:03:02.083377 [debug] [MainThread]: Tracking: tracking
+08:03:02.085360 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CBD2A91888>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CBD2A89FC8>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CBD2A72D48>]}
+08:03:02.737815 [debug] [MainThread]: Executing "git --help"
+08:03:02.742815 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CBD4864F88>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CBD4864E88>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CBD4864D88>]}
